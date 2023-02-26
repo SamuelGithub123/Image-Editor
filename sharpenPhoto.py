@@ -2,7 +2,7 @@ from PIL import Image, ImageEnhance, ImageFilter
 import os
 
 path = "./images" 
-pathOut = "./editedImages" 
+pathOut = "./sharpenImages" 
 
 for filename in os.listdir(path):
     img = Image.open(f"{path}/{filename}")
